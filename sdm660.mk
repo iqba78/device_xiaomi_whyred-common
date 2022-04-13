@@ -15,6 +15,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel
 
+# Include display HAL makefiles.
+include hardware/qcom-caf/msm8998/display/display-commonsys-intf/config/display-interfaces-product.mk
+include hardware/qcom-caf/msm8998/display/display-commonsys-intf/config/display-product-system.mk
+
 # Permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/system_ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml
