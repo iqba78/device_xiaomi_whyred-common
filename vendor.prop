@@ -180,7 +180,7 @@ ro.vendor.sensors.sta_detect=true
 ro.vendor.sensors.mot_detect=true
 
 # Set system properties identifying the chipset
-ro.soc.manufacturer=QTI
+ro.soc.manufacturer=Qualcomm
 ro.soc.model=SDM660
 
 # Time
