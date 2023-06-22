@@ -107,6 +107,8 @@ vidc.enc.dcvs.extra-buff-count=2
 
 # Display
 debug.sf.disable_client_composition_cache=1
+dev.pm.dyn_samplingrate=1
+debug.sf.disable_hwc_overlays=1
 debug.sf.disable_backpressure=1
 debug.sf.hw=1
 ro.config.avoid_gfx_accel=true
