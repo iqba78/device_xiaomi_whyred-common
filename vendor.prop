@@ -108,7 +108,6 @@ vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
 
 # Display
-debug.sdm.support_writeback=0
 debug.sf.disable_client_composition_cache=1
 dev.pm.dyn_samplingrate=1
 debug.sf.disable_hwc_overlays=1
