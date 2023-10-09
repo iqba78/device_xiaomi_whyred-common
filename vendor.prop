@@ -109,12 +109,9 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera
 
 # Display
 debug.sf.disable_client_composition_cache=1
-dev.pm.dyn_samplingrate=1
-debug.sf.disable_hwc_overlays=1
 debug.sf.disable_backpressure=1
 debug.sf.hw=1
 ro.config.avoid_gfx_accel=true
-ro.hwui.render_ahead=20
 debug.sf.auto_latch_unsignaled=false
 ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm660
